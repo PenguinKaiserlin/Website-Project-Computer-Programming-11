@@ -1,0 +1,417 @@
+/* myStyle.css */
+body {
+    background-color: #fff;
+    color: #777;
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    margin: 0;
+}
+.hero-home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183),rgba(0, 0, 0, 0.146)), url(images\ for\ website/Colloseum.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero-italy {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183),rgba(0, 0, 0, 0.146)), url(images\ for\ website/Leaning-Tower.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero-france {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183),rgba(0, 0, 0, 0.146)), url(images\ for\ website/Eiffel-Tower.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero-spain {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183),rgba(0, 0, 0, 0.146)), url(images\ for\ website/Sagrada-Familia.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero-greece {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183),rgba(0, 0, 0, 0.146)), url(images\ for\ website/Pantheon-Greece.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero h1 {
+    font-family: sans-serif;
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: white;
+    text-align: center;
+}
+
+p {
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 4.5em;
+    color: white;
+    text-align: center;
+}
+h2 {
+    font-weight: 300;
+    color: #444;
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 40px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+    background-color: white;
+}
+  
+nav {
+    background-color: rgb(179, 221, 239);
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(black,0.05),0px 2px 4px rgba(black,0.06);
+    z-index: 100;
+}
+  
+nav a {
+    display: inline-block;
+    padding: 10px 50px;
+    margin: 0px;
+    background-color: rgb(179, 221, 239);
+    border: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+#Introduction {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+#Italy-Banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183),rgba(0, 0, 0, 0.146)), url(images\ for\ website/Piazza-del-Duomo-Florence.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0;
+}
+#France-Banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183),rgba(0, 0, 0, 0.146)), url(images\ for\ website/France-Arc.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0;
+}
+#Spain-Banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183),rgba(0, 0, 0, 0.146)), url(images\ for\ website/Madrid-Sunset-Panorama.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0;
+}
+#Greece-Banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183),rgba(0, 0, 0, 0.146)), url(images\ for\ website/SantoriniIsland.avif);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0;
+}
+#Italy-Art-Banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183),rgba(0, 0, 0, 0.146)), url(images\ for\ website/Uffizi-Gallery.avif);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0;
+}
+#Italy-Food-Banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183),rgba(0, 0, 0, 0.146)), url(images\ for\ website/Italian-Food.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0;
+}
+#Italy-Landmarks-Banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183),rgba(0, 0, 0, 0.146)), url(images\ for\ website/Grand-Canal-Venice.jpg.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0;
+}
+#France-Food-Banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183),rgba(0, 0, 0, 0.146)), url(images\ for\ website/French-Food.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0;
+}
+#France-Landmarks-Banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183),rgba(0, 0, 0, 0.146)), url(images\ for\ website/Louvre-Bright.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0;
+}
+#Spain-Beaches-Banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183),rgba(0, 0, 0, 0.146)), url(images\ for\ website/Spanish-Beaches.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0;
+}
+#Spain-Food-Banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183),rgba(0, 0, 0, 0.146)), url(images\ for\ website/Spanish-Food.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0;
+}
+#Spain-Landmarks-Banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183),rgba(0, 0, 0, 0.146)), url(images\ for\ website/Royal-Palace-Madrid.avif);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0;
+}
+#Greece-Food-Banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183),rgba(0, 0, 0, 0.146)), url(images\ for\ website/Greek-Cuisine.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0;
+}
+#Greece-Beaches-Banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183),rgba(0, 0, 0, 0.146)), url(images\ for\ website/Greek-Island.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0;
+}
+#Greece-Landmarks-Banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183),rgba(0, 0, 0, 0.146)), url(images\ for\ website/Meteora-Monastaries.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0;
+}
+.Content {
+    display: flex;
+    align-items: center; 
+    column-gap: 5px;
+    margin: 30px;
+    text-align: center;
+    padding: 50px 50px;
+    justify-content: center;
+    gap: 100px;
+}
+#Content-Text {
+    text-align: center;
+    width: 350px;
+}
+#Content-Image {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.content {
+    margin: 0px;
+}
+
+.fade img {
+    opacity:0.5;
+transition: 1s ease;
+}
+.fade img:hover {
+opacity:1;
+transition: 1s ease;
+}
+.gray-to-colour img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+    
+.gray-to-colour img:hover {
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+}
+.gallery-title {
+    margin: 30px 0;
+    font-size: 2rem;
+    color: #333;
+} 
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.gallery-item {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+}
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-grow: 1;
+}
+.gallery-item:hover {
+    transform: scale(1.02);
+}
+.caption {
+    padding: 10px;
+    font-size: 1rem;
+    color: #555;
+    background-color: #fafafa;
+    border-top: 1px solid #eee;
+    flex-shrink: 0;
+    text-align: center;
+}
+.square-to-circle img {
+    transition: 1s ease;
+}
+    
+.square-to-circle img:hover {
+    border-radius:50%;
+    transition: 1s ease;
+}
+.shrink img {
+    transition: 1s ease;
+}
+    
+.shrink img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+.fading img{
+    opacity:0.5;
+    transition: 1s ease;
+}
+    
+.fading img:hover{
+    opacity:1;
+    transition: 1s ease;
+}
